@@ -1,0 +1,6 @@
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/scribe-systems-sp/frontend_module_boilerplate.git
+[submodule "backend"]
+	path = backend
+	url = https://github.com/scribe-systems-sp/backend_module_boilerplate.git
