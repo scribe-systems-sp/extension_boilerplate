@@ -1,0 +1,16 @@
+{
+    "modules": [
+        {
+            "context": "./frontend",
+            "cmd": "npm run build",
+            "artifact": "dist/boilerplate.min.js",
+            "file": "frontend.min.js"
+        },
+        {
+            "context": "./backend",
+            "cmd": "npm run build",
+            "artifact": "dist/module.min.js",
+            "file": "backend.min.js"
+        }
+    ]
+}

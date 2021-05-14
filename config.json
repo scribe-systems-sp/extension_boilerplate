@@ -1,0 +1,27 @@
+{
+    "name": "Test extension",
+    "description": "Just test extension",
+    "owner": "Scribe systems",
+    "version": "1.0.0",
+    "key": "scribesystems/test",
+    "modules": [
+        {
+            "name": "Testing module",
+            "description": "test description",
+            "owner": "Scribe systems",
+            "version": "1.0.0",
+            "path": "/scribesystems/testingbmodule",
+            "file": "backend.min.js",
+            "type": "backend"
+        },
+	{
+            "name": "Testing frontend module",
+            "description": "test description",
+            "owner": "Scribe systems",
+            "version": "1.0.0",
+            "path": "/scribesystems/testingfrontmodule",
+            "file": "frontend.min.js",
+            "type": "frontend"
+        }
+    ]
+}
